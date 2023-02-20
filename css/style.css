@@ -2,8 +2,8 @@ body{
     background-color: bisque;
     font-family: 'poppins', sans-serif;  
     padding-top:0%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 
@@ -186,6 +186,7 @@ h3{
 
     .menu li{
         display: none;
+        position:fixed;
     }
 
     input{
@@ -228,10 +229,9 @@ h3{
         justify-content: space-between;
     }
 
-    .buttons{
-    display: none;
+    .button{
+        display:none;
     }
-
     
     }
 
