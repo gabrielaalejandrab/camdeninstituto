@@ -1,0 +1,242 @@
+body{
+    background-color: bisque;
+    font-family: 'poppins', sans-serif;  
+    padding-top:0%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    text-shadow: 0 0 4px white;
+    font-family:'poppins', sans-serif;
+}
+
+
+h2{
+    text-align: left;
+    font-family: 'poppins', sans-serif;
+    text-shadow: 0 0 4px white;
+
+}
+
+header{
+    background-color: darkblue;
+    font-display: flex;
+    padding: 0px;
+    box-shadow:0 0 3px black;
+}
+
+input{
+    display: none;
+}
+
+
+
+a{
+    display: inline;
+    display: flex;
+    text-decoration:none;
+    color: white;
+    padding: 45px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+
+a:hover{
+    color:blue
+}
+
+.menu li{
+    display: inline-block;
+}
+
+img{
+    height: 500px;
+}
+
+.camden-logo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+footer{
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: darkblue;
+    justify-content:center;
+    font-family: 'poppins', sans-serif;
+}
+
+footer li{
+    display: flex;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.contacto li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.certificados li{
+    text-align: left;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+
+}
+
+
+.nosotrosintro{
+    display: flex;
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+.niños{
+    height: 200px;
+}
+
+.jovenes{
+height: 200px;
+}
+
+.adultos{
+height: 200px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-gap: 40px;
+    padding: 100px;
+    font-size: large;
+}
+
+
+.contenedor img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.foto{
+    display: flex;
+}
+
+h3{
+    font-size: xx-large;
+}
+
+@media (max-width:576px){
+    .nosotros{
+       display:flex;
+       flex-direction: column;
+    
+    }
+    
+    
+
+    h1{
+        margin:0;
+
+    }
+
+    
+
+    .seccionnosotros{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nosotrosintro{
+        display: flex;
+        padding: 20px;
+        font-family: 'poppins', sans-serif;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    
+    .headernosotros{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .menu li{
+        display: none;
+    }
+
+    input{
+        font-size: 50px;
+        display:flex;
+       
+    }
+  
+    body{ 
+        padding-left: 0px;
+        padding-right: 0;
+  
+    }
+    
+
+
+    footer{
+        margin-top: 30px;
+        background-color: darkblue;
+        justify-content:center;
+        font-family: 'poppins', sans-serif;
+    }
+    
+    footer li{
+        display: flex;
+        text-align: center;
+        display: inline-block;
+        padding: 0px;
+    }
+
+    .headercertificados{
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+    .headerinicio{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buttons{
+    display: none;
+    }
+
+    
+    }
+
+    
+    
+
+    
+
