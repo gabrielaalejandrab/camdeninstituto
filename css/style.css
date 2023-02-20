@@ -32,6 +32,9 @@ input{
     display: none;
 }
 
+.navbar-nav{
+    display: flex;
+}
 
 
 a{
@@ -40,7 +43,7 @@ a{
     text-decoration:none;
     color: white;
     padding: 45px;
-    text-align: center;
+    text-align:center;
     font-family: 'poppins', sans-serif;
 }
 
@@ -48,9 +51,6 @@ a:hover{
     color:blue
 }
 
-.menu li{
-    display: inline-block;
-}
 
 img{
     height: 500px;
@@ -183,6 +183,14 @@ h3{
         justify-content: space-between;
 
     }
+    
+    .headercertificados{
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
 
     .menu li{
         display: none;
@@ -217,13 +225,6 @@ h3{
         padding: 0px;
     }
 
-    .headercertificados{
-        display: flex;
-        justify-content: space-between;
-
-
-
-    }
     .headerinicio{
         display: flex;
         justify-content: space-between;
